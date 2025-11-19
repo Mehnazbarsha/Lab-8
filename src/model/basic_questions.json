@@ -12,6 +12,6 @@
   {
     "id":3,
     "question": "What type of number is 101?",
-    "answers": [{ "answer": "prime", "isCorrect":true }, { "answer": "composite", "isCorrect":false }, { "answer":"neigher", "isCorrect":false }, { "answer":"both", "isCorrect":false }]
+    "answers": [{ "answer": "prime", "isCorrect":true }, { "answer": "composite", "isCorrect":false }, { "answer":"neither", "isCorrect":false }, { "answer":"both", "isCorrect":false }]
   }
 ]
