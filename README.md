@@ -44,11 +44,6 @@ src/
 ├── App.js                          # Main app with routing
 └── App.test.js                     # Integration tests
 
-test/
-└── selenium/
-    └── quiz.spec.js                # Functional tests
-```
-
 ## 🎯 Features Implemented
 
 ### 1. Refactored Scoring (Controller Pattern)
@@ -66,12 +61,7 @@ test/
 - Tests initialization, scoring, percentage calculation, grade calculation, and reset
 - Run with: `npm test`
 
-### 4. Functional Tests
-- Selenium WebDriver tests for user interactions
-- Tests navigation, answer selection, scoring, and page transitions
-- Run with: `npm run stests` (requires app to be running)
-
-### 5. Enhanced UI
+### 4. Enhanced UI
 - Modern, responsive design
 - Color-coded feedback
 - Hover effects on buttons
@@ -89,15 +79,6 @@ Tests include:
 - Component rendering
 - User interactions
 - Alert dialogs
-
-### Functional Tests (Selenium)
-```bash
-# Terminal 1: Start the app
-npm start
-
-# Terminal 2: Run Selenium tests
-npm run stests
-```
 
 ## 🎨 New Features
 
@@ -130,7 +111,6 @@ npm run stests
 - ResultsPage component
 - Navigation system in App.js
 - Unit tests for ScoreController
-- Selenium functional tests
 - Enhanced styling and UX
 
 ### Improved
@@ -148,7 +128,6 @@ npm run stests
 5. **Submit**: Click Submit to see alert with final grade
 6. **Results**: Click "View Results" to see results page
 7. **Tests**: Show unit tests passing with `npm test`
-8. **Selenium**: Show functional tests with `npm run stests`
 
 ## 📦 Submission Checklist
 
@@ -161,11 +140,6 @@ npm run stests
 - ✅ 3-step setup instructions
 
 ## 🔧 Troubleshooting
-
-**Selenium tests fail:**
-- Ensure app is running (`npm start`) before running tests
-- Check that Chrome/ChromeDriver is installed
-- Verify port 3000 is available
 
 **Unit tests fail:**
 - Run `npm install` to ensure all dependencies are installed
@@ -180,7 +154,6 @@ npm run stests
 
 - React 18.3.1
 - Testing Library (Jest, React Testing Library)
-- Selenium WebDriver 4.38.0
 - ChromeDriver 142.0
 - Mocha 11.7.4
 - Chai 6.2.1
