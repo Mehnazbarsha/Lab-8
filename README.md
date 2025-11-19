@@ -25,9 +25,6 @@ The app will open at `http://localhost:3000`
 ```bash
 # Unit tests
 npm test
-
-# Selenium tests (in a separate terminal while app is running)
-npm run stests
 ```
 
 ## 📁 Project Structure
